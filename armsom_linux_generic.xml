@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="remote.xml"/>
+  
+  <project name="linux-rockchip" path="kernel-armbian" revision="5edfed5033b6073ee7eeefe2d8aacf07ec949891" dest-branch="rk-6.1-rkr5.1" clone-depth="1"/>
+</manifest>
