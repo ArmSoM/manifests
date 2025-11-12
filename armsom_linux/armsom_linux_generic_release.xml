@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="remote.xml"/>
-  
+  <project name="debian12" revision="07bcc865745ceeca476d99eb544ccc230ab7b51e" dest-branch="main" clone-depth="1"/>
+  <project name="device_rockchip" path="device/rockchip" revision="d98b541a06723d5345ec6ef6036ec0fa19e8ac10" dest-branch="main" clone-depth="1">
+    <linkfile src="common/scripts/build.sh" dest="build.sh"/>
+    <linkfile src="common/Makefile" dest="Makefile"/>
+    <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
+  </project>
   <project name="linux-rockchip" path="kernel-armbian" revision="5edfed5033b6073ee7eeefe2d8aacf07ec949891" dest-branch="rk-6.1-rkr5.1" clone-depth="1"/>
 </manifest>
