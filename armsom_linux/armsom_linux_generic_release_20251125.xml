@@ -2,7 +2,7 @@
 <manifest>
   <include name="remote.xml"/>
   <project name="debian12" revision="07bcc865745ceeca476d99eb544ccc230ab7b51e" dest-branch="main" clone-depth="1"/>
-  <project name="device_rockchip" path="device/rockchip" revision="d98b541a06723d5345ec6ef6036ec0fa19e8ac10" dest-branch="main" clone-depth="1">
+  <project name="device_rockchip" path="device/rockchip" revision="b5d8778e015730492e37da304cd58c94155db369" dest-branch="main" clone-depth="1">
     <linkfile src="common/scripts/build.sh" dest="build.sh"/>
     <linkfile src="common/Makefile" dest="Makefile"/>
     <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
