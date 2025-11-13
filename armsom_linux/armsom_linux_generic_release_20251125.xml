@@ -8,7 +8,7 @@
     <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
   </project>
   <project name="gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="adbb295a970c4b39dc487c95226fe84d2c460072" clone-depth="1"/>
-  <project name="rockchip-kernel" path="kernel-6.10" revision="d8e42edcd660498d2361dd77503cf1165579df04" dest-branch="linux-6.1-stan-rkr6.1" clone-depth="1"/>
+  <project name="rockchip-kernel" path="kernel-6.1" revision="d8e42edcd660498d2361dd77503cf1165579df04" dest-branch="linux-6.1-stan-rkr6.1" clone-depth="1"/>
   <project name="rkbin" revision="74213af1e952c4683d2e35952507133b61394862" dest-branch="main" clone-depth="1"/>
   <project name="tools" revision="25b1c5278f79288fe18412cf4fecb11d4fccc3b7" dest-branch="main" clone-depth="1"/>
   <project name="u-boot" revision="b14196eade471bbc000c368f8555f2a2a1ecc17d" dest-branch="main" clone-depth="1"/>
