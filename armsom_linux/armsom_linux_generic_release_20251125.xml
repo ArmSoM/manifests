@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="remote.xml"/>
-  <project name="debian12" revision="07bcc865745ceeca476d99eb544ccc230ab7b51e" dest-branch="main" clone-depth="1"/>
-  <project name="device_rockchip" path="device/rockchip" revision="38f9f4c588cc84123b15d95cb40ca61e04b870e5" dest-branch="main" clone-depth="1">
+  <project name="debian12" revision="d77b49d7bddbdd17aeecbce93fdd17c184672d76" dest-branch="main" clone-depth="1"/>
+  <project name="device_rockchip" path="device/rockchip" revision="15a1124fba9041878d0027192cd09d4b0a2c61e2" dest-branch="main" clone-depth="1">
     <linkfile src="common/scripts/build.sh" dest="build.sh"/>
     <linkfile src="common/Makefile" dest="Makefile"/>
     <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
@@ -11,5 +11,5 @@
   <project name="rockchip-kernel" path="kernel-6.1" revision="d0bde2f8279430270097c23ad13af02442b25a84" dest-branch="linux-6.1-stan-rkr6.1" clone-depth="1"/>
   <project name="rkbin" revision="74213af1e952c4683d2e35952507133b61394862" dest-branch="main" clone-depth="1"/>
   <project name="tools" revision="25b1c5278f79288fe18412cf4fecb11d4fccc3b7" dest-branch="main" clone-depth="1"/>
-  <project name="u-boot" revision="b14196eade471bbc000c368f8555f2a2a1ecc17d" dest-branch="main" clone-depth="1"/>
+  <project name="u-boot" revision="561878a3f7c74e551c5daa7fec95a230d6dea393" dest-branch="main" clone-depth="1"/>
 </manifest>
