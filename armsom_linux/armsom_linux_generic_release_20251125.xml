@@ -2,7 +2,7 @@
 <manifest>
   <include name="remote.xml"/>
   <project name="armsom-initrd" revision="81139ebbd55e012bea83e8548188021dcb5fea1c" dest-branch="main" clone-depth="1"/>
-  <project name="debian12" revision="d77b49d7bddbdd17aeecbce93fdd17c184672d76" dest-branch="main" clone-depth="1"/>
+  <project name="debian12" revision="1179a4d64d32ab4c1df249243683b69ee0084740" dest-branch="main" clone-depth="1"/>
   <project name="device_rockchip" path="device/rockchip" revision="15a1124fba9041878d0027192cd09d4b0a2c61e2" dest-branch="main" clone-depth="1">
     <linkfile src="common/scripts/build.sh" dest="build.sh"/>
     <linkfile src="common/Makefile" dest="Makefile"/>
