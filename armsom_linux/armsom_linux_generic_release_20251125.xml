@@ -2,15 +2,16 @@
 <manifest>
   <include name="remote.xml"/>
   <project name="armsom-initrd" revision="81139ebbd55e012bea83e8548188021dcb5fea1c" dest-branch="main" clone-depth="1"/>
-  <project name="debian12" revision="1179a4d64d32ab4c1df249243683b69ee0084740" dest-branch="main" clone-depth="1"/>
-  <project name="device_rockchip" path="device/rockchip" revision="15a1124fba9041878d0027192cd09d4b0a2c61e2" dest-branch="main" clone-depth="1">
+  <project name="debian12" revision="09b940e08bd8c28556b5cb4fde3e409b7021750a" dest-branch="main" clone-depth="1"/>
+  <project name="device_rockchip" path="device/rockchip" revision="a31a0b069b0df75a9ec990181e6645a6cff743a1" dest-branch="main" clone-depth="1">
     <linkfile src="common/scripts/build.sh" dest="build.sh"/>
     <linkfile src="common/Makefile" dest="Makefile"/>
     <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
   </project>
   <project name="gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="adbb295a970c4b39dc487c95226fe84d2c460072" clone-depth="1"/>
-  <project name="rockchip-kernel" path="kernel-6.1" revision="d0bde2f8279430270097c23ad13af02442b25a84" dest-branch="linux-6.1-stan-rkr6.1" clone-depth="1"/>
+  <project name="rockchip-kernel" path="kernel-6.1" revision="5cb053b7e3a64a2c976fb0cf43d04d5811b474fe" dest-branch="linux-6.1-stan-rkr6.1" clone-depth="1"/>
   <project name="rkbin" revision="74213af1e952c4683d2e35952507133b61394862" dest-branch="main" clone-depth="1"/>
   <project name="tools" revision="25b1c5278f79288fe18412cf4fecb11d4fccc3b7" dest-branch="main" clone-depth="1"/>
-  <project name="u-boot" revision="561878a3f7c74e551c5daa7fec95a230d6dea393" dest-branch="main" clone-depth="1"/>
+  <project name="u-boot" revision="7eccf7ab1bb3b30f926bc3f603ce00df7dceb80f" dest-branch="main" clone-depth="1"/>
+  <project name="ubuntu20.04" revision="011264766cf6cf19efe431770d62e24f9f300abd" dest-branch="main" clone-depth="1"/>
 </manifest>
