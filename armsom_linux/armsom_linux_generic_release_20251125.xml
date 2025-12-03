@@ -13,5 +13,5 @@
   <project name="rkbin" revision="74213af1e952c4683d2e35952507133b61394862" dest-branch="main" clone-depth="1"/>
   <project name="tools" revision="25b1c5278f79288fe18412cf4fecb11d4fccc3b7" dest-branch="main" clone-depth="1"/>
   <project name="u-boot" revision="7eccf7ab1bb3b30f926bc3f603ce00df7dceb80f" dest-branch="main" clone-depth="1"/>
-  <project name="ubuntu20.04" revision="011264766cf6cf19efe431770d62e24f9f300abd" dest-branch="main" clone-depth="1"/>
+  <project name="ubuntu22.04" revision="011264766cf6cf19efe431770d62e24f9f300abd" dest-branch="main" clone-depth="1"/>
 </manifest>
