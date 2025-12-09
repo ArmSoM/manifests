@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="remote.xml"/>
-  <project name="armsom-initrd" revision="81139ebbd55e012bea83e8548188021dcb5fea1c" dest-branch="main" clone-depth="1"/>
+  <project name="armsom-initrd" revision="edfcd8b3f6607380b0f1b1a8bb6836296ee60f59" dest-branch="main" clone-depth="1"/>
   <project name="debian12" revision="84dcf367f6b6a27c8b32614ef5a50819e4bf6630" dest-branch="main" clone-depth="1"/>
   <project name="device_rockchip" path="device/rockchip" revision="a31a0b069b0df75a9ec990181e6645a6cff743a1" dest-branch="main" clone-depth="1">
     <linkfile src="common/scripts/build.sh" dest="build.sh"/>
