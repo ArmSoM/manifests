@@ -3,7 +3,7 @@
   <include name="remote.xml"/>
   <project name="armsom-initrd" revision="edfcd8b3f6607380b0f1b1a8bb6836296ee60f59" dest-branch="main" clone-depth="1"/>
   <project name="debian12" revision="10cf3091f379bf89e67d55b12d6066a8345c21ea" dest-branch="main" clone-depth="1"/>
-  <project name="device_rockchip" path="device/rockchip" revision="b70db57ddbdddb265b642e2657f3b927a02a7b89" dest-branch="main" clone-depth="1">
+  <project name="device_rockchip" path="device/rockchip" revision="51d38a0d34c110c2215ba5a5dd1dcd9a39777d31" dest-branch="main" clone-depth="1">
     <linkfile src="common/scripts/build.sh" dest="build.sh"/>
     <linkfile src="common/Makefile" dest="Makefile"/>
     <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
