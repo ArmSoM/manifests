@@ -1,1 +1,1 @@
-repo init -u https://github.com/as-jackson/manifests.git -b linux -m armsom_linux_generic.xml
+repo init -u https://github.com/ArmSoM/manifests.git -b linux -m armsom_linux_generic.xml
