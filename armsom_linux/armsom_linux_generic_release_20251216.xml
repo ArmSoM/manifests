@@ -2,16 +2,16 @@
 <manifest>
   <include name="remote.xml"/>
   <project name="armsom-initrd" revision="edfcd8b3f6607380b0f1b1a8bb6836296ee60f59" dest-branch="main" clone-depth="1"/>
-  <project name="debian12" revision="10cf3091f379bf89e67d55b12d6066a8345c21ea" dest-branch="main" clone-depth="1"/>
-  <project name="device_rockchip" path="device/rockchip" revision="51d38a0d34c110c2215ba5a5dd1dcd9a39777d31" dest-branch="main" clone-depth="1">
+  <project name="debian12" revision="46f4fcd01723ba481d590933cedfb39079995292" dest-branch="main" clone-depth="1"/>
+  <project name="device_rockchip" path="device/rockchip" revision="1e0bd6d72d9fb53db12bfa5fe5f282a42e30c662" dest-branch="main" clone-depth="1">
     <linkfile src="common/scripts/build.sh" dest="build.sh"/>
     <linkfile src="common/Makefile" dest="Makefile"/>
     <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
   </project>
   <project name="gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="adbb295a970c4b39dc487c95226fe84d2c460072" clone-depth="1"/>
-  <project name="rockchip-kernel" path="kernel-6.1" revision="b0ad0be5ef4c453e4e3eec9a14f6be208ba63043" dest-branch="linux-6.1-stan-rkr6.1" clone-depth="1"/>
+  <project name="rockchip-kernel" path="kernel-6.1" revision="6bfb91cf601c9de6231892f7a1b460f45e6598c2" dest-branch="linux-6.1-stan-rkr6.1" clone-depth="1"/>
   <project name="rkbin" revision="74213af1e952c4683d2e35952507133b61394862" dest-branch="main" clone-depth="1"/>
   <project name="tools" revision="8a50de31559a9776bca42b42c550eca49cf7a317" dest-branch="main" clone-depth="1"/>
   <project name="u-boot" revision="7eccf7ab1bb3b30f926bc3f603ce00df7dceb80f" dest-branch="main" clone-depth="1"/>
-  <project name="ubuntu22.04" revision="8914dc0c036567efcd5ff80905ea64334d66996e" dest-branch="main" clone-depth="1"/>
+  <project name="ubuntu22.04" revision="47a92e1e75d4c4b5336816e68ea58c143791abeb" dest-branch="main" clone-depth="1"/>
 </manifest>
