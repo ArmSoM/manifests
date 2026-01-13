@@ -3,7 +3,7 @@
   <include name="remote.xml"/>
   <project name="armsom-initrd" revision="edfcd8b3f6607380b0f1b1a8bb6836296ee60f59" dest-branch="main" clone-depth="1"/>
   <project name="debian12" revision="46f4fcd01723ba481d590933cedfb39079995292" dest-branch="main" clone-depth="1"/>
-  <project name="device_rockchip" path="device/rockchip" revision="1e0bd6d72d9fb53db12bfa5fe5f282a42e30c662" dest-branch="main" clone-depth="1">
+  <project name="device_rockchip" path="device/rockchip" revision="a08137abce88f20f6e2d777b8d985088f3b3d2a0" dest-branch="main" clone-depth="1">
     <linkfile src="common/scripts/build.sh" dest="build.sh"/>
     <linkfile src="common/Makefile" dest="Makefile"/>
     <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
@@ -14,4 +14,5 @@
   <project name="tools" revision="8a50de31559a9776bca42b42c550eca49cf7a317" dest-branch="main" clone-depth="1"/>
   <project name="u-boot" revision="7eccf7ab1bb3b30f926bc3f603ce00df7dceb80f" dest-branch="main" clone-depth="1"/>
   <project name="ubuntu22.04" revision="47a92e1e75d4c4b5336816e68ea58c143791abeb" dest-branch="main" clone-depth="1"/>
+  <project name="ubuntu24.04" revision="51313d3845416d3a55b2111acce20076ad7a220d" dest-branch="main" clone-depth="1"/>
 </manifest>
