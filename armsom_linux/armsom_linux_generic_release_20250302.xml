@@ -10,11 +10,11 @@
     <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
   </project>
   <project name="gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="adbb295a970c4b39dc487c95226fe84d2c460072" clone-depth="1"/>
-  <project name="rockchip-kernel" path="kernel-6.1" revision="6bfb91cf601c9de6231892f7a1b460f45e6598c2" dest-branch="linux-6.1-stan-rkr6.1" clone-depth="1"/>
+  <project name="rockchip-kernel" path="kernel-6.1" revision="abd9d1b95cf5aacc4f27e3864f527077566eb0e1" dest-branch="linux-6.1-stan-rkr6.1" clone-depth="1"/>
   <project name="rockchip-kernel5.10" path="kernel-5.10" revision="34930f6512a34f836270bbc8bf2baed42177040b" dest-branch="main" clone-depth="1"/>
   <project name="rkbin" revision="74213af1e952c4683d2e35952507133b61394862" dest-branch="main" clone-depth="1"/>
   <project name="tools" revision="8a50de31559a9776bca42b42c550eca49cf7a317" dest-branch="main" clone-depth="1"/>
   <project name="u-boot" revision="7eccf7ab1bb3b30f926bc3f603ce00df7dceb80f" dest-branch="main" clone-depth="1"/>
   <project name="ubuntu22.04" revision="47a92e1e75d4c4b5336816e68ea58c143791abeb" dest-branch="main" clone-depth="1"/>
-  <project name="ubuntu24.04" revision="51313d3845416d3a55b2111acce20076ad7a220d" dest-branch="main" clone-depth="1"/>
+  <project name="ubuntu24.04" revision="9e4e6e124f7ba1069a71bd784463ff6e750c2a6a" dest-branch="main" clone-depth="1"/>
 </manifest>
