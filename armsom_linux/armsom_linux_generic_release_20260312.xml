@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="remote.xml"/>
-  <project name="armsom-initrd" revision="edfcd8b3f6607380b0f1b1a8bb6836296ee60f59" dest-branch="main" clone-depth="1"/>
-  <project name="debian11" revision="4a4929e096f4b303b49a66cd613c778b4164ca85" dest-branch="main" clone-depth="1"/>
+  <project name="armsom-initrd" revision="2d682e9269a0c3e42c6e2f75f66f7f794160d6e5" dest-branch="main" clone-depth="1"/>
+  <project name="debian11" revision="fa9e15f835ff1aa240d4cf96b93f66ca5c232bc2" dest-branch="main" clone-depth="1"/>
   <project name="debian12" revision="46f4fcd01723ba481d590933cedfb39079995292" dest-branch="main" clone-depth="1"/>
-  <project name="device_rockchip" path="device/rockchip" revision="1ba47b1b205e3b2929c9ef78ab914a5280efad03" dest-branch="main" clone-depth="1">
+  <project name="device_rockchip" path="device/rockchip" revision="2ba70d3617b7f05fa09a8d3c8c28c7270ee5368a" dest-branch="main" clone-depth="1">
     <linkfile src="common/scripts/build.sh" dest="build.sh"/>
     <linkfile src="common/Makefile" dest="Makefile"/>
     <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
   </project>
   <project name="gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="adbb295a970c4b39dc487c95226fe84d2c460072" clone-depth="1"/>
-  <project name="rockchip-kernel" path="kernel-6.1" revision="abd9d1b95cf5aacc4f27e3864f527077566eb0e1" dest-branch="linux-6.1-stan-rkr6.1" clone-depth="1"/>
-  <project name="rockchip-kernel5.10" path="kernel-5.10" revision="34930f6512a34f836270bbc8bf2baed42177040b" dest-branch="main" clone-depth="1"/>
+  <project name="rockchip-kernel" path="kernel-6.1" revision="682e10e77a17e8c9675b44b3ffcc9eb358737597" dest-branch="linux-6.1-stan-rkr6.1" clone-depth="1"/>
+  <project name="rockchip-kernel5.10" path="kernel-5.10" revision="592a852c68896390ab480559927094562e2af414" dest-branch="main" clone-depth="1"/>
   <project name="rkbin" revision="74213af1e952c4683d2e35952507133b61394862" dest-branch="main" clone-depth="1"/>
   <project name="tools" revision="8a50de31559a9776bca42b42c550eca49cf7a317" dest-branch="main" clone-depth="1"/>
-  <project name="u-boot" revision="7eccf7ab1bb3b30f926bc3f603ce00df7dceb80f" dest-branch="main" clone-depth="1"/>
-  <project name="ubuntu22.04" revision="47a92e1e75d4c4b5336816e68ea58c143791abeb" dest-branch="main" clone-depth="1"/>
+  <project name="u-boot" revision="c5df82c51932d97690e9374f2b60cd5294263de2" dest-branch="main" clone-depth="1"/>
+  <project name="ubuntu22.04" revision="8f807b241ae9495bc500ce879f92fafc63393bc9" dest-branch="main" clone-depth="1"/>
   <project name="ubuntu24.04" revision="9e4e6e124f7ba1069a71bd784463ff6e750c2a6a" dest-branch="main" clone-depth="1"/>
 </manifest>
