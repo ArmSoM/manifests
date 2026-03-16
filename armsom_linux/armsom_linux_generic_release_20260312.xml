@@ -14,7 +14,7 @@
   <project name="rockchip-kernel5.10" path="kernel-5.10" revision="592a852c68896390ab480559927094562e2af414" dest-branch="main" clone-depth="1"/>
   <project name="rkbin" revision="74213af1e952c4683d2e35952507133b61394862" dest-branch="main" clone-depth="1"/>
   <project name="tools" revision="8a50de31559a9776bca42b42c550eca49cf7a317" dest-branch="main" clone-depth="1"/>
-  <project name="u-boot" revision="c5df82c51932d97690e9374f2b60cd5294263de2" dest-branch="main" clone-depth="1"/>
-  <project name="ubuntu22.04" revision="8f807b241ae9495bc500ce879f92fafc63393bc9" dest-branch="main" clone-depth="1"/>
+  <project name="u-boot" revision="3673cd0e9ffdb4f8c7034c8d977b26840eb220bc" dest-branch="main" clone-depth="1"/>
+  <project name="ubuntu22.04" revision="06a3fd3009727a178bca16841a9a42a6edeb533c" dest-branch="main" clone-depth="1"/>
   <project name="ubuntu24.04" revision="9e4e6e124f7ba1069a71bd784463ff6e750c2a6a" dest-branch="main" clone-depth="1"/>
 </manifest>
