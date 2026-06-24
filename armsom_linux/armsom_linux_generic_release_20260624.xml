@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="remote.xml"/>
-  <project name="armsom-initrd" revision="dae5c0360e5ed034bbe92b5068e0937884538c86" dest-branch="main" clone-depth="1"/>
+  <project name="armsom-initrd" revision="2d682e9269a0c3e42c6e2f75f66f7f794160d6e5" dest-branch="main" clone-depth="1"/>
   <project name="debian11" revision="6c760110f7dd6406852ea771411f73247b6a6c1e" dest-branch="main" clone-depth="1"/>
   <project name="debian12" revision="79c80c4859a40af80a851b83d91fadc635127578" dest-branch="main" clone-depth="1"/>
   <project name="device_rockchip" path="device/rockchip" revision="276e956a85bfca4a5d3bf65c42c8a98341a99847" dest-branch="main" clone-depth="1">
@@ -12,7 +12,7 @@
   <project name="gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="adbb295a970c4b39dc487c95226fe84d2c460072" clone-depth="1"/>
   <project name="rockchip-kernel" path="kernel-6.1" revision="802308edf249e729886cd605c1fd50fbb111a831" dest-branch="linux-6.1-stan-rkr6.1" clone-depth="1"/>
   <project name="rockchip-kernel5.10" path="kernel-5.10" revision="592a852c68896390ab480559927094562e2af414" dest-branch="main" clone-depth="1"/>
-  <project name="rkbin" revision="74213af1e952c4683d2e35952507133b61394862" dest-branch="main" clone-depth="1"/>
+  <project name="rkbin" revision="dae5c0360e5ed034bbe92b5068e0937884538c86" dest-branch="main" clone-depth="1"/>
   <project name="tools" revision="8a50de31559a9776bca42b42c550eca49cf7a317" dest-branch="main" clone-depth="1"/>
   <project name="u-boot" revision="3673cd0e9ffdb4f8c7034c8d977b26840eb220bc" dest-branch="main" clone-depth="1"/>
   <project name="ubuntu22.04" revision="e022c69fac9c323fda03bd9a48fb1ed0f5dee2b4" dest-branch="main" clone-depth="1"/>
